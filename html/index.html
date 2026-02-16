@@ -15,43 +15,58 @@
 <body>
 
  <!-- navbar -->
-
  <div class="navbar max-w-[1000px] mx-auto">
-        <div class="navbar bg-base-100 shadow-sm">
-         <div class="navbar-start">
-          <div class="dropdown">
-           <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" />
-            </svg>
-           </div>
-           <ul tabindex="-1" class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
-            <li><a>Item 1</a></li>
-            <li>
-             <a>Parent</a>
-             <ul class="p-2">
-              <li><a>Submenu 1</a></li>
-              <li><a>Submenu 2</a></li>
-             </ul>
-            </li>
-            <li><a>Item 3</a></li>
-           </ul>
-          </div>
-          <a class="btn btn-ghost text-xl text-[#1f587e]">swiftcart</a>
-         </div>
-         <div class="navbar-center hidden lg:flex">
-          <ul class="menu menu-horizontal px-1 space-x-5">
-          <li>Home</li>
-          <li>Products</li>
-          <li>About</li>
-          <li>Contacts</li>
-          </ul>
-         </div>
-         <div class="navbar-end">
-          <a class="btn"><i class="fa-solid fa-cart-shopping"></i></a>
-         </div>
-        </div>
+  <div class="navbar bg-base-100 shadow-sm">
+   <div class="navbar-start">
+    <div class="dropdown">
+     <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+     </div>
+     <ul tabindex="-1" class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow space-y-3">
+      <li>Home</li>
+      <li>Products</li>
+      <li>About</li>
+      <li>Contacts</li>
+     </ul>
+    </div>
+    <a class="btn btn-ghost text-xl text-[#1f587e]">swiftcart</a>
+   </div>
+   <div class="navbar-center hidden lg:flex">
+    <ul class="menu menu-horizontal px-1 space-x-5">
+     <li>Home</li>
+     <li>Products</li>
+     <li>About</li>
+     <li>Contacts</li>
+    </ul>
+   </div>
+   <div class="navbar-end">
+    <a class="btn"><i class="fa-solid fa-cart-shopping"></i></a>
+   </div>
+  </div>
  </div>
+
+
+ <!-- Home  -->
+
+ <section>
+
+  <div class="homeBanner h-[500px]  " style="
+   background-image: linear-gradient(rgba(0,0,0,0.75) , rgba(240, 235, 235, 0.45)) , url('../assets/banner-image.png');
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   "> 
+  <div class=" max-w-[700px] mx-auto pt-[10%] space-y-5" >
+    <h1 class="text-white text-[40px] font-bold capitalize">Best Collection for you</h1>
+    <h1 class="text-white text-[12px] w-[500px] font-bold capitalize">discover the latest trend in your fashion ,
+     electronics and more . shop with confidence and style at swiftcart</h1>
+    <button class="bg-[#1f2b98] text-white px-5 py-1 rounded-sm">shop now</button>
+  </div>
+  </div>
+
+
+
+
+ </section>
 
 
 
